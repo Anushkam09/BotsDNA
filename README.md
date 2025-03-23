@@ -35,7 +35,7 @@ Here, you'll find scripts for various automation challenges, including:
 First, install the necessary Python packages using:  
 
 ```bash
-pip install rpaframework openpyxl python-dotenv python-docx docx2pdf
+pip install rpaframework openpyxl python-dotenv python-docx docx2pdf PyPDF2
 ```
 
 This will install:  
@@ -44,7 +44,8 @@ This will install:
 - `openpyxl` → Excel file operations  
 - `dotenv` → Secure credentials handling  
 - `python-docx` → For creating and modifying Word documents
-- `docx2pdf` → For converting Word files into PDFs
+- `docx2pdf` → For converting Word files into PDF
+- `PyPDF2`→ For reading PDFs
 
 ---
 
